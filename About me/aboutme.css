@@ -89,3 +89,7 @@ img {
 .skip-link:focus {
   transform: translateY(0);
 }
+ .hero-section {
+  background-color: #fff7e3;
+  padding: 40px 20px;
+}

@@ -16,6 +16,7 @@ h2 {
       background-color: #fff7e3;
        font-size: clamp(1rem, 2.5vw, 1.2rem);
   line-height: 1.5;
+  
     }
     .navbar,
 .navbar-brand,
@@ -106,8 +107,9 @@ img {
 
 .faq-section {
   background-color: #f2dfb8;
-  padding: 40px 20px;
-   min-height: 400px;
+  padding: 20px;
+   min-height: auto;
+   margin-bottom: 0;
 }
 
 .footer-section {

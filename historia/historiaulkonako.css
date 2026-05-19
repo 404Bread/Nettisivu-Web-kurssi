@@ -8,12 +8,15 @@ h1 {
  p, li{
       color: rgb(0, 0, 0);
          font-size: clamp(1rem, 2.5vw, 1.2rem);
+         
 }
     
     body {
       background-color: #fff7e3;
        font-size: clamp(1rem, 2.5vw, 1.2rem);
   line-height: 1.5;
+  background: linear-gradient(to right, #f0e3cd, #f0d6a3);
+  
     }
     .navbar,
 .navbar-brand,
@@ -59,3 +62,16 @@ img {
 .skip-link:focus {
   transform: translateY(0);
 }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin-bottom: 45px;
+}
+  .hero-section {
+  background-color: #fff7e3;
+  padding: 40px 20px;
+}
+
