@@ -9,7 +9,7 @@ h2 {
 }
  p, li {
       color: rgb(0, 0, 0);
-         font-size: clamp(1rem, 2.5vw, 1.2rem);
+          font-size: clamp(1.38rem, 2.5vw, 1.2rem);
 }
     
     body {
@@ -92,4 +92,10 @@ img {
  .hero-section {
   background-color: #fff7e3;
   padding: 40px 20px;
+}
+.CC-title {
+  font-size: 1.3rem;
+}
+.categorize-bread {
+  font-size: 1.65rem;
 }
