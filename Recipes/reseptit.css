@@ -5,13 +5,14 @@ h1 {
   font-size: clamp(2rem, 8vw, 4.5rem);
 }
 h2 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: clamp(1rem, 5vw, 2.5rem);
 }
  p, li {
       color: rgb(0, 0, 0);
          font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
     
+
     body {
       background-color: #fff7e3;
        font-size: clamp(1rem, 2.5vw, 1.2rem);
@@ -28,22 +29,16 @@ h2 {
   gap: 20px;
   max-width: 1000px;
   margin: auto;
-   width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-/* Full screen layout */
-.grid {
-  grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: auto auto auto;
   grid-template-areas:
     "img1 img2 img3 img4"
     "box1 box3 box5 box7"
-    "box2 box4 box6 box8"
+    "box2 box4 box6 box8";
 }
+
+
 img {
   max-width: 100%;
   height: auto;
