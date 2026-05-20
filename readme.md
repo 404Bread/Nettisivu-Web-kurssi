@@ -4,3 +4,4 @@ Added About Me page 12.5.2026
 Added Ciabatta recipe + links to the recipes 13.5.2026
 Added 'Why didn't my dough...' question button + questions in FAQ section 18.5.2026
 Centered the text + picture and lowered the footer section in the History of bread page. Added hero section to all pages that were missing it (all except Home). Increased the size of 'Featured Bread' image in Home page. 19.5.2026
+Ciabatta image and box fixed in Recipes page so it's like other recipes. Small typo fixes. Comments added 20.5.2026
